@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Task 1</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrit
+      y="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="fixed-top">
+      <div class="container-fluid px-0">
+        <nav class="navbar navabr-expand-sm bg-dark navbar-dark">
+          <a href="#" class="navbar-brand" style="color: var(--blue)">
+            <i class="fab fa-korvue fa-2x"></i>
+            erolos
+          </a>
+          <a href="#" class="products">Products</a>
+          <div class="cart px-3">
+            <i
+              class="fas fa-shopping-cart fa-2x"
+              style="color: var(--blue)"
+            ></i>
+            <span>0 </span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container" id="products">
+        <div class="row">
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/t-shirt-2.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="15">T-shirt</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>15</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/shoes-2.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="20">Shoe</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>20</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/arno-senoner-oCXVxwTFwqE-unsplash.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="30">Bag</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>30</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/pants-2.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="15">Pants</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>15</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/iphone.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="1000">IPhone 12</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>1000</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/laptop.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="1000">laptop</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>1000</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/headPhone.jfif"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="60">HeadPhone</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>60</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/cam.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="12000">Cam</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>1200</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/watch.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="1000">Wristwatch</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>1000</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="card text-center mx-auto p-0">
+            <img
+              src="images/shoe.jpg"
+              alt=""
+              class="img-card-top"
+              width="100%"
+              height="200"
+            />
+            <div class="card-body px-0">
+              <h4 class="card-title" price="20">shoe</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="rating mb-3">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p class="price"><span>20</span> $</p>
+              <button class="btn btn-primary add">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="cart" style="display: none">
+        <table
+          class="table table-bordered table-striped text-center text-capitalize"
+        >
+          <thead>
+            <tr class="bg-dark text-primary">
+              <th>Product Name</th>
+              <th>Price ($)</th>
+              <th>Quatity</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+
+          <tfoot class="bg-dark text-light">
+            <tr>
+              <td colspan="2">total</td>
+              <td colspan="2" id="total">0</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <button class="btn btn-success">Order Now</button>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
